@@ -43,7 +43,28 @@ a:active {color:blue; background-color:transparent; text-decoration:none;}
   <section> <!-- main -->
 <section id="memberArea">
 <from id="memberForm" action="http://jspwork.herokuapp.com/ex/regCheck.jsp" method="post">
-<
+<fieldset><legend>회원정보</legend>
+  <fieldset><legend>이름/이메일</legend>
+<label for="stud_name">이름</label>
+<input id="stud_name" type="text" name="stud_name" size="20" maxlength="50" required/><br/>
+<label for="stud_email">이메일</label>
+<input id="stud_email" type="text" name="stud_email" size="20" maxlength="50" /><br/>
+<label for="stud_phone">전화번호</label>
+<input id="stud_phone" type="text" name="stud_phone" size="20" maxlength="50" /><br/>
+</fieldset>
+<fieldset><legend>성별</legend>
+<label for="stud_gender1">여자</label>
+<input id="stud_gender1" type="radio" name="stud_gender" value="여자" checked/><br/>
+<label for="stud_gender2">남자</label>
+<input id="stud_gender2" type="radio" name="stud_gender" value="남자" /><br/>
+</fieldset>
+<fieldset><legend>성별</legend>
+<label for="stud_gender1">여자</label>
+<input id="stud_gender1" type="radio" name="stud_gender" value="여자" checked/><br/>
+<label for="stud_gender2">남자</label>
+<input id="stud_gender2" type="radio" name="stud_gender" value="남자" /><br/>
+</fieldset>
+</form>
 
 <a href="anchor2.html"><h3 id="chapter1">오늘의 교통상황</h3></a>
 <p>오늘의 교통상황을 비디오로 제공합니다. 장소는 대한민국 만세로 입니다. 많은 자동차로 붐비고 있습니다. 자동차와 자동차간 거리 1미터 이내로 사고 우려가 높았습니다. 하지만, 다행히도 사고는 발생하지 않았습니다. 아래가 교통상황 입니다.</p>
