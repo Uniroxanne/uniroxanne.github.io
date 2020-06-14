@@ -10,6 +10,8 @@ header ul li {display:inline; margin:5px;}
 header img {width:990px; height:200px;}
 section{width:750px; float:left;}
 section section {width:725px; float:left;}
+  div#division1{border:solid 1px; color:black; height:100px; width:450px; float:left;}
+div#division2{border:solid 1px; color:black; height:100px; width:450px; float:left;}
 aside {width:221px; float:left; line-height:30px;}
   .verticalAlignB { vertical-align:text-bottom; }
 footer{height:50px; clear:both;}
@@ -17,7 +19,7 @@ nav ul {margin:0; padding:0;}
 nav ul li {display:inline; margin:5px;}
 aside ul {margin:0; padding:0;}
 aside ul li {display:block; margin:5px;}
-aside ul li img {width:50px; height:50px;}
+aside ul li img {width:80px; height:80px;}
 a:link {color:blue; background-color:transparent; text-decoration:none;}
 a:visited {color:pink; background-color:transparent; text-decoration:none;}
 a:hover {color:red; background-color:transparent; text-decoration:underline;}
@@ -51,7 +53,7 @@ function event2onclick() {   document.getElementById("id_2").innerHTML
 document.getElementById("id_1").innerHTML=""
                          }
 </script>
-<section><h3 id="chapter1">Career Gole</h3></a>
+<section><h3 id="chapter1">Career Gole</h3>
       <ul style="list-style-type:square; text-decoration:underline;">
 <li onclick="event1onclick()">short-term goal<p id="id_1"></p></li>
 <li onclick="event2onclick()">long-term goal<p id="id_2"></p></li>
@@ -67,17 +69,20 @@ document.getElementById("id_1").innerHTML=""
     <li></li>
   </ol>
     </section>
-<section><h3 id="chapter3">제3장</h3>
-<p>제3장 입니다. 제 3장은 무엇을 정의 합니다.</p>
-<table><tr><th>이동주소</th><th>사이트명</th><th>설명</th></tr>
-<tr><td>구글</td><td><a href="http://www.naver.com">네이버</a></td><td>네이버</td></tr>
-<tr><td>사이트다른문서</td><td><a href="anchor2.html">anchor2.html로이동</a></td><td>anchor2</td></tr>
-<tr><td>제 1장</td><td><a href="#chapter1">제 1장문서내이동(북마크이동)</a></td><td>제 1장</td></tr></table>
+<section>
+  <div id="division1">
+  <h3 id="chapter1">Languages</h3>
+    <img src="circle.jpg" width="200" height="100"/>
+</div>
+<div id="division2">
+  <h3 id="chapter1">Languages</h3>
+<p>대전대학교 재학중</p><p>전공 : 컴퓨터공학</p>
+</div>
   </section>
   </section> <!-- /main -->
   <aside>
     <h3 id="chapter1">Contact</h3></a>
-  <p><a href=https://www.gmail.com><img src="mail.png" class="verticlaAlignB" width="20" height="20"/>toplondon08@gmail.com</p>
+  <p><a href=https://www.gmail.com><img src="mail.jpg" class="verticlaAlignB" width="30" height="30"/>toplondon08@gmail.com</p>
     <ul>
       <li><a href=https://www.facebook.com><img src="facebook.jpg" alt="페이스북"/></a></li>
       <li><a href=https://www.twitter.com><img src="twitter.jpg" alt="트위터"/></a></li>
